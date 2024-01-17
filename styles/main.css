@@ -1,0 +1,90 @@
+:root {
+    background-color:rgb(243, 253, 186);
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: rgb(32, 33, 32);
+    
+}
+.be-vietnam pro-thin {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+.sigmar-one-regular {
+    font-family: "Sigmar One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    
+}
+#greeting {
+    font-family: "Sigmar One", sans-serif;
+    text-align: center;
+    padding: 1;
+    margin: 0;
+    font-size: 50px;
+  
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    font-size: 12px;
+    
+}
+ul li {
+    list-style-type: none;
+    margin-right: 30px;
+   
+}
+
+
+.section-1 {
+    background-color: white;
+    padding: 1;
+    margin: 10 0;
+    display: flex;
+
+}
+#core-posts {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 5px
+}
+
+#tech-posts {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 5px
+
+}
+
+.section-2 {
+    background-color: whitesmoke;
+    padding: 1;
+    margin: 0;
+    padding: 20px;
+
+}
+
+footer {
+    font-size: 10;
+}
+    
+
+    
+
+
+
