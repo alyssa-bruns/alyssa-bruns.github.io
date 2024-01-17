@@ -22,7 +22,11 @@ header {
     display: flex;
     margin: 0;
     justify-content: space-evenly;
-    
+    position: sticky;
+    top: 1px;
+    bottom: 1px;
+    background-color: rgb(243, 253, 186);
+
 }
 #greeting {
     font-family: "Sigmar One", sans-serif;
@@ -30,8 +34,7 @@ header {
     padding: 1;
     margin: 0;
     font-size: 50px;
-  
-    
+
 }
 nav {
     display: flex;
@@ -49,7 +52,7 @@ ul li {
 }
 
 
-.section-1 {
+.double-blog-section{
     background-color: white;
     padding: 1;
     margin: 10 0;
@@ -71,17 +74,47 @@ ul li {
 
 }
 
-.section-2 {
+#about-section {
     background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+
+    
+
+}
+#AB_portrait {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(32, 33, 32);
+    border-width: 2px;
+    margin-left: 20;
+  
+    
+}
+#about-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+footer {
+    font-size: 10;
+    padding: 20 20 20 20;
+    margin: 0;
+}
+.single-blog-section{
+    background-color: #ffffff;
     padding: 1;
     margin: 0;
     padding: 20px;
-
 }
 
-footer {
-    font-size: 10;
-}
     
 
     
