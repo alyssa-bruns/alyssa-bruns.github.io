@@ -26,6 +26,7 @@ header {
     top: 1px;
     bottom: 1px;
     background-color: rgb(243, 253, 186);
+    z-index: 1;
 
 }
 #greeting {
@@ -108,13 +109,38 @@ footer {
     padding: 20 20 20 20;
     margin: 0;
 }
-.single-blog-section{
+.single-blog-section {
     background-color: #ffffff;
     padding: 1;
     margin: 0;
     padding: 20px;
 }
-
+.post-preview {
+    border-style: solid;
+    border-color: rgb(32, 33, 32);
+    border-width: 2px;
+    margin: 0;
+    padding: 20px;
+    font-size: 14px;
+}
+.post-title {
+    font-size: 16px;
+    margin-bottom: 0;
+   
+    
+}
+.post-date {
+    font-size: 12px;
+    font-style: italic;
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+.post-caption {
+    text-align: center;
+}
+.image-preview {
+    width: 100%;
+}
     
 
     
