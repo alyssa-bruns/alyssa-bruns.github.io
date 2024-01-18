@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <html>
+  <head>
+    <title>Display Inline vs Inline-Block</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+
+<meta name="viewport" content-width="device-width">
+  </head>
+   
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+      <header>
+        <h1 id="greeting">Kia ora Taiao!</h1> 
+  
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about-section">About</a></li>
+            <li><a href="te-houtaewa-template.html">Te Houtaewa</a></li>
+            <li><a href="#">New Page 2</a></li>
+          </ul>
+        </nav>
+  
+      </header>
+      <section class="single-blog-section">
+        <h1>Display Inline vs Inline Block</h1>
+        <h2><em>What's the difference?</em></h2>
+       <h3>18 January 2024</h3>
+    
+            <p id="into">
+                To truly understand display inline compared to inline-block, you need to understand display block. 
+            </p>
+            <p>
+                Everything on a webpage is an element. Paragraphs, headings, and lists are all elements. These elements (along with most elements) are block elements that entail certain default characteristics. By default, block elements take up an entire line (go all the way across the screen or container). They also always start on a new line and don't let another element occupy the same line space. 
+            </p>
+            <p>
+                You can think of this as someone buying a ticket to the movies and then taking up the entire row of seats. Even if you (the element) do not take up the entire row, anyone else that comes in either has to sit in the row above or below you. In tech terms, this means that every time you start a new paragraph, it is located underneath the previous paragraph. It also looks like each item in a list automatically starts underneath the previous item despite there still being space next to it. The last important characteristic to take note of is that you can change the height and width of block elements.
+            </p>
+                <div class="image-group">
+                <img class="code-image" src="../images/display-block-code.jpg" alt="An example of display block code using HTML and CSS.">
+                <img class="visual-example" src="../images/block-image.jpg" alt="A visual example of display block code using HTML and CSS.">
+            </div>
+            <p>
+                There are a couple of elements that are inline. These include links and spans. Inline elements do exactly what they sound like; they continue inline with other elements. Inline elements do not automatically start on a new line. Let's go back to that movie theater reference. Inline elements are like buying a seat in a row and the next person who sits down will sit directly next to you, or shoulder-to-shoulder. 
+            </p>
+            <p>
+                To imagine this on screen, you can think of a paragraph with a couple of words in the middle of a sentence being a link. This link element blends in with its surroundings. Instead of taking up space across the whole screen, inline elements' sizes correspond with the text they contain and will not be any bigger or smaller. This means that you cannot change the height and width of inline elements. You are also only able to add margins or padding to the left and right sides and not the top and bottom. You would use this property when you want your elements to be aligned onto the same row.
+            </p>
+            <div class="image-group">
+                <img class="code-image" src="../images/display-inline-code.jpg" alt="An example of display inline code using HTML and CSS.">
+                <img class="visual-example" src="../images/inline-image.jpg" alt="A visual example of display inline code using HTML and CSS.">
+             </div>
+            <p>
+                Now, what if you want an element to be inline (on the same line) as other elements but still be able to change its height and width? That's where inline-blocks come in! When you change an element's display to inline-block, that means you will be able to change its dimensions while still allowing it to sit on the same line as other elements. The easiest way to imagine this is to picture buttons on a website's navigation bar. It also works similarly to images. If small enough, you can have several images in one row and still be able to alter their sizes. Inline-block is a nice mix of display block and display inline characteristics. You would use this property when you want your elements to be aligned on the same row but still want to control the dimensions of each element.
+            </p>
+            <div class="image-group">
+                <img class="code-image" src="../images/display-inline-block-code.jpg" alt="An example of display inline-block code using HTML and CSS.">
+                <img class="visual-example" src="../images/inline-block-image.jpg" alt="A visual example of display inline-block code using HTML and CSS.">
+             </div>
+        </section>
+    
+    <!-- this is a comment. -->
+  
+  </body>
+
+  <style>
+    .image-group {
+        position: relative;
+
+    }
+    .code-image {
+        vertical-align: bottom;
+        width: 150px;
+
+
+    }
+    .visual-example {
+        position: absolute;
+        height: 100%;
+
+
+    }
+  </style>
+</html>
