@@ -56,6 +56,7 @@ header {
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: bold;
     font-size: 14px;
+    border-radius: 10%;
 }
 .nav-links li .nav-buttons:hover {
     align-items: center;
@@ -74,6 +75,7 @@ a, a:hover, a:visited {
     margin: 15px 15px;
     display: flex;
     min-height: 100vh;
+    border-radius: 1%;
 
 }
 #core-posts {
@@ -99,6 +101,7 @@ a, a:hover, a:visited {
     display: flex;
     align-items: center;
     font-size: 14px;
+    border-radius: 1%;
 
     
 
@@ -127,6 +130,7 @@ a, a:hover, a:visited {
     margin: 15px 15px;
     padding: 20px;
     min-height: 100vh;
+    border-radius: 1%;
 }
 .post-preview {
     border-style: solid;
@@ -135,6 +139,7 @@ a, a:hover, a:visited {
     margin: 0;
     padding: 20px;
     font-size: 14px;
+    border-radius: 1%;
 }
 .post-title {
     font-size: 16px;
