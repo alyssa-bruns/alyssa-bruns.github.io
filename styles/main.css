@@ -20,44 +20,60 @@ body {
 
 header {
     display: flex;
-    margin: 0;
+    margin: 20px 0 15px 0;
     justify-content: space-evenly;
     position: sticky;
     top: 1px;
     bottom: 1px;
     background-color: rgb(243, 253, 186);
     z-index: 1;
+    background-image: url("../images/checker-plain.jpg");
+    /*background-repeat: repeat-x;*/
+    background-size: contain;
+   
 
 }
 #greeting {
     font-family: "Sigmar One", sans-serif;
     text-align: center;
     padding: 1;
-    margin: 0;
+    margin: 0 0 0 30px;
     font-size: 50px;
+    flex-wrap: wrap;
 
-}
-nav {
-    display: flex;
-    align-items: center;
 }
 .nav-links {
     display: flex;
-    font-size: 12px;
-    
-}
-ul li {
     list-style-type: none;
+    flex-wrap: wrap;
+}
+.nav-links li .nav-buttons {
+    align-items: center;
+    margin: 10px 30px 10px 0px;
+    background-color: whitesmoke;
+    padding: 15px;
+    border: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-links li .nav-buttons:hover {
+    align-items: center;
     margin-right: 30px;
+    background-color: rgb(255, 79, 152);
    
 }
-
+a, a:hover, a:visited {
+    text-decoration: none;
+    color:rgb(0, 73, 0)
+}
 
 .double-blog-section{
     background-color: white;
     padding: 1;
-    margin: 10 0;
+    margin: 15px 15px;
     display: flex;
+    min-height: 100vh;
 
 }
 #core-posts {
@@ -78,7 +94,7 @@ ul li {
 #about-section {
     background-color: whitesmoke;
     padding: 0;
-    margin: 0;
+    margin: 15px;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -104,16 +120,13 @@ ul li {
     flex-direction: column;
     margin-left: 50px;
 }
-footer {
-    font-size: 10;
-    padding: 20 20 20 20;
-    margin: 0;
-}
+
 .single-blog-section {
     background-color: #ffffff;
     padding: 1;
-    margin: 0;
+    margin: 15px 15px;
     padding: 20px;
+    min-height: 100vh;
 }
 .post-preview {
     border-style: solid;
@@ -126,6 +139,7 @@ footer {
 .post-title {
     font-size: 16px;
     margin-bottom: 0;
+    font-weight: bolder;
    
     
 }
@@ -141,8 +155,14 @@ footer {
 .image-preview {
     width: 100%;
 }
-    
 
+footer {
+    background-image: url("../images/checker-plain.jpg");
+    background-size: contain;
+    padding: 20px;
+    margin: 15px 0 20px 0;
+    font-size: 10px;
+}  
     
 
 
