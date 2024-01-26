@@ -165,6 +165,7 @@ a, a:hover, a:visited {
 }
 .image-preview {
     width: 100%;
+    display: inline-block;
 }
 
 footer {
