@@ -131,6 +131,10 @@ a, a:hover, a:visited {
     margin-left: 50px;
 }
 
+.category-title {
+    font-family: "Sigmar One", sans-serif;
+}
+
 .single-blog-section {
     background-color: #ffffff;
     margin: 30px 40px 30px 40px;
@@ -148,7 +152,7 @@ a, a:hover, a:visited {
     border-radius: 1%;
 }
 .post-title {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 0;
     font-weight: bolder;
    
