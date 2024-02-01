@@ -145,7 +145,7 @@ a, a:hover, a:visited {
 .post-preview {
     border-style: solid;
     border-color: rgb(32, 33, 32);
-    border-width: 2px;
+    border-width: 5px;
     margin: 0 0 20px 0;
     padding: 20px;
     font-size: 14px;
@@ -166,6 +166,7 @@ a, a:hover, a:visited {
 }
 .post-caption {
     text-align: center;
+    font-weight: bold;
 }
 .image-preview {
     width: 100%;
